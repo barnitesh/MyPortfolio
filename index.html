@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitesh Barman - web developer, programmer</title>
+    <link rel="stylesheet" type="text/css" href="port.css">
+    <!---<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />--->
+    <script src="https://kit.fontawesome.com/124a9528a9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/logo0333.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">My Intro</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>It's not fully functional webpage.</p>
+                <h1>Hello, I'm <span>Nitesh</span><br>Barman From Delhi</h1>
+            </div>
+        </div>
+    </div>
+    <!------------ABOUT------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/nitbackground...png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me...</h1>
+                    <p>Hi, I am Nitesh a UX/UI designer and a Front End developer.
+                        I enjoy turning complex problems into simple ones in my beautiful, and intuitive interface
+                        designs<br><br>
+                        When I'm not coding or pushing pixels, you'll find me in the food hub or playing football on the
+                        ground...<br><br>
+                        Apart From Coding<br>
+                        Adore everything new, interesting, and exciting.Cannot imagine my life without
+                        entertainment
+                        and having fun.. I believe that all happening to us is not by accident. Everything is
+                        interconnected in this world.<br><br>
+                        Psychology, science, and art are what help me to learn about the outside world and myself.
+                        I never stop improving myself and appreciate this quality in people!)<br><br>
+                        I prefer real-world communication to long online chatting..
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>html/css</span><br>Lorem ipsum dolor Itaque eveniet quasi labore rerum, explicabo
+                                quibusdam porro adipisci fugiat.</li>
+                            <li><span>Python</span><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+                                corporis amet rerum.</li>
+                            <li><span>c++</span><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                                quisquam obcaecati at!</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Current Status</span><br>BTECH(CSE)-> DELHI TECHNICAL CAMPUS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="hobbies">
+                        <ul>
+                            <li>Reading Psychological Books,<br> Watching Movies<br>Traviling, Photography,<br> Dancing,
+                                Playing
+                                Football</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-------services------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Desgin</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic est esse repudiandae numquam ipsam
+                        molestiae impedit sed autem reprehenderit quo, vitae saepe ullam!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Photoshop</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic est esse repudiandae numquam ipsam
+                        molestiae impedit sed autem reprehenderit quo, vitae saepe ullam!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-eye"></i>
+                    <h2>Logo Designing</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic est esse repudiandae numquam ipsam
+                        molestiae impedit sed autem reprehenderit quo, vitae saepe ullam!</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------portfolio--------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/webdesign22222222222222222111.jpg">
+                    <div class="layer">
+                        <h3>Web page</h3>
+                        <p>A website that allows people to buy and sell physical goods, services, and digital products
+                            over the internet rather than at a brick-and-mortar location. </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/Best-Photoshop.png">
+                    <div class="layer">
+                        <h3>Image Creation</h3>
+                        <p>Allows you to create and manipulate visual images on the computer.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/logo designing.webp">
+                    <div class="layer">
+                        <h3>Logo Design</h3>
+                        <p>Serve to represent a given organization or company through a visual image that can be easily
+                            understood and recognized.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!------------------Contact--------------------->
+    <div id="contact">
+        <div class="container">
+
+            <div class="row">
+                <div class="contact-left">
+                    <h3 class="sub-title">Contact Me</h3>
+                    <p><i class="fa-solid fa-paper-plane"></i>barnitesh98@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>7011329667</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Messgae"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Made with <i class="fa-solid fa-heart"></i> By Nitesh</p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzgjY4Fh7ddV6sa4S4kuBgnnhjxf98WRT2rtV_MUuDQdN29azp3Q-8PbvrR77l35mwl/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+<!--------<div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing Web/App interface</li>
+                            <li><span>Web Development</span><br>Web/App development</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Hobbies">
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing Web/App interface</li>
+                            <li><span>Web Development</span><br>Web/App development</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing Web/App interface</li>
+                            <li><span>Web Development</span><br>Web/App development</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>-->
